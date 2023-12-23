@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Посты</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="mainarea">
+        <div class="loader"></div>
+        <h1>Посты</h1>
 
+        <!-- Модальное окно -->
+        <div id="modalArea" class="modal">
+            <div class="modal-input">
+                <span class="close">&times;</span>
+                <form id="postForm">
+                    <select id="selectUser" required></select>
+                    <input type="text" id="title" placeholder="Заголовок" required>
+                    <textarea id="body" placeholder="Текст поста" required></textarea>
+                    <button type="button" id="submitButton">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="firststring">
+            <button type="button" id="addButton">Add post</button>
+            <img id="changetheme" src="sun.png" data-light="sun.png" data-dark="moon.png" />
+        </div>
+
+
+        <!-- Список постов -->
+        <ul id="list"></ul>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
