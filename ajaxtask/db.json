@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack"
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich"
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat"
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V"
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert"
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Первый тайтл",
+      "body": "Первый боди",
+      "userId": "1",
+      "id": 1
+    },
+    {
+      "title": "Второй тайтл",
+      "body": "Второй боди",
+      "userId": "2",
+      "id": 2
+    },
+    {
+      "title": "Третий тайтл",
+      "body": "Третий боди",
+      "userId": "3",
+      "id": 3
+    },
+    {
+      "title": "Четвертый тайтл",
+      "body": "Четвертый боди t",
+      "userId": "1",
+      "id": 4
+    },
+    {
+      "title": "Пятый тайтл",
+      "body": "Пятый боди",
+      "userId": "5",
+      "id": 5
+    },
+    {
+      "title": "Шестой тайтл",
+      "body": "Шестой боди",
+      "userId": "6",
+      "id": 6
+    },
+    {
+      "title": "Седьмой тайтл",
+      "body": "Седьмой боди",
+      "userId": "7",
+      "id": 7
+    },
+    {
+      "title": "Восьмой тайтл",
+      "body": "Восьмой боди",
+      "userId": "8",
+      "id": 8
+    },
+    {
+      "title": "Девятый тайтл",
+      "body": "Девятый боди",
+      "userId": "9",
+      "id": 9
+    },
+    {
+      "title": "Десятый тайтл",
+      "body": "Десятый боди",
+      "userId": "10",
+      "id": 10
+    }
+  ]
+}
