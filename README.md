@@ -6,7 +6,7 @@
    - Открыть терминал в нужной дириктории. Прописать `git clone 'https://github.com/vsssjke77/ajax_task'` <br> Проект склонировался
 2. Зайти в папку с проектом (в папку, в которой находится package.json) и открыть в нем терминал
 3. Установить зависимости:<br>
-   `npm install` <br> `install -g json-server` <br> `npm install jquery`
+   `npm install` <br> `npm install -g json-server` <br> `npm install jquery`
 4. Запустить сервер:<br>
    `json-server --watch db.json`
 5. Открыть страницу в браузере (два способа):
